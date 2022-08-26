@@ -20,7 +20,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>app.web.pcz-portfolio</groupId>
+            <groupId>app.web.pcz-backend-template</groupId>
             <artifactId>common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
