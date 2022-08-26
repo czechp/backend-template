@@ -3,8 +3,8 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>pcz-building-automation</artifactId>
-        <groupId>app.web.pcz-portfolio</groupId>
+        <artifactId>pcz-backend-template</artifactId>
+        <groupId>app.web.pcz-backend-template</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -20,7 +20,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>app.web.pcz-portfolio</groupId>
+            <groupId>app.web.pcz-backend-template</groupId>
             <artifactId>common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
