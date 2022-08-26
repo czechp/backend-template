@@ -14,10 +14,13 @@
         <version>2.7.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>app.web.pcz-portfolio</groupId>
-    <artifactId>pcz-building-automation</artifactId>
+
+    <groupId>app.web.pcz-backend-template</groupId>
+    <artifactId>pcz-backend-template</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pcz-building-automation</name>
+    <name>pcz-backend-template</name>
+
+
     <description>Backend for building automation system</description>
     <properties>
         <java.version>11</java.version>
