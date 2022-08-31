@@ -1,3 +1,4 @@
 #!/usr/bin/bash
-IMAGE_NAME=czechprz/backend-template
-sudo docker image build --tag $IMAGE_NAME .
+PROJECT_IMAGE_NAME=$(cat imageName.txt)
+sudo docker image rm $PROJECT_IMAGE_NAME
+sudo docker image build --tag $PROJECT_IMAGE_NAME .

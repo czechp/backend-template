@@ -1,3 +1,3 @@
 #!/usr/bin/bash
-IMAGE_NAME=czechprz/backend-template
-sudo docker image push $IMAGE_NAME
+PROJECT_IMAGE_NAME=$(cat imageName.txt)
+sudo docker image push $PROJECT_IMAGE_NAME
