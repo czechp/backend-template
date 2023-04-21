@@ -1,4 +1,4 @@
 /.idea
 /target
 **target
-/docker/orders-backend.jar
+/docker/backend-template.jar
