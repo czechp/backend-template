@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.6.100:3306/orders
+    username: orders
+    password: orders123
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  liquibase:
+    contexts: production
+  mail:
+    host: poczta.bispol.pl
+    port: 25
+    username: umup@bispol.pl
+    password: C9KTKtJH
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
